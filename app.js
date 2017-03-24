@@ -50,7 +50,7 @@ passport.use(
     {
       clientID: '1432424166827766',
       clientSecret: 'a0d16b19c57fbe6ca600bad496bd165b',
-      callbackURL: "http://localhost:3000/users/auth/facebook/callback",
+      callbackURL: "https://registrousaa.herokuapp.com/users/auth/facebook/callback",
       profileFields: ["emails", "displayName"]
     },
     function (token, refreshToken, profile, done) {
